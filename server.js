@@ -66,7 +66,7 @@ const client59 = new Discord.Client();
 const client60 = new Discord.Client();
 
 
-client.login ("");
+client.login ("Nzg0OTg1ODY1MTU1Mzc5MjYw.X8xRZQ.ZKWYZ57ZIYWoRQ9uEPh_ofZWnzA");
 client2.login("");
 client3.login("");
 client4.login("");
@@ -129,7 +129,14 @@ client60.login("")
 
 
 
-
+client.on("ready", () => {
+  console.log(`[BOT] ${client14.user.username} Ready!`);
+  KahDEV({
+    method: "POST",
+    url: "https://discordapp.com/api/v6/invite/" + invitecode,
+    headers: { authorization: process.env.KahTOKEN14 }
+  });
+});
 
 
 
