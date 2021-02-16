@@ -67,7 +67,7 @@ const client60 = new Discord.Client();
 
 
 client.login ("Nzg0OTg1ODY1MTU1Mzc5MjYw.X8xRZQ.ZKWYZ57ZIYWoRQ9uEPh_ofZWnzA");
-client2.login("");
+client2.login("ODExMzE1MTU5MzA5MDkwODY3.YCwa4Q.lDZ0-qozbjQDeAr7nVk6VL0iDm8");
 client3.login("");
 client4.login("");
 client5.login("");
